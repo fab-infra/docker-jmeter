@@ -1,8 +1,8 @@
 # JMeter based on Java 11
-FROM eclipse-temurin:11-jre-focal
+FROM eclipse-temurin:11-jre-jammy
 
 # Arguments
-ARG JMETER_VERSION="5.6.2"
+ARG JMETER_VERSION="5.6.3"
 ARG JMETER_URL="https://dlcdn.apache.org/jmeter/binaries/apache-jmeter-${JMETER_VERSION}.tgz"
 
 # Download and extract
